@@ -113,3 +113,26 @@ section{
     display: inline-block;
     color: var(--color-text-1);
 }
+.title p{
+    margin-top: 2rem;
+}
+.has-scrollbar{
+    padding-bottom: 1rem;
+}
+.has-scrollbar::-webkit-scrollbar-thumb{
+    background: var(--color-primary);
+    -webkit-border-radius:1.3rem;
+    border: .15rem solid #eee;
+    border-radius: 1.3rem;
+}
+.has-scrollbar::-webkit-scrollbar-track{
+    background: var(--color-secondary);
+    -webkit-border-radius:1.3rem;
+    border: .15rem solid #eee;
+    border-radius: 1.3rem;
+    width: calc(50% - 40px);
+}
+.has-scrollbar::-webkit-scrollbar-button{
+    width: calc(25% - 40px);
+
+}
